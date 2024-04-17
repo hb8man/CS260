@@ -1,0 +1,35 @@
+QUEUE DESIGN:
+
+    int generateRandNum() {
+        return randNum
+    }
+
+    class Queue {
+    public:
+        std::queue<int> queueInQuestion; // We need to have a collection to act as the queue
+
+        void enqueue() {
+            queueInQuestion.push() // Push to back of queue
+        }
+
+        void dequeue() {
+            queueInQuestion.pop() // Dequeue first element 
+        }
+
+        void displayQueueData() {
+            if queueInQuestion != empty {
+                cout << queueInQuestion.firstElement;
+                cout << queueInQuestion.lastElement;
+            } else {
+                cout << "The queue is empty";
+            }
+
+        }
+    };
+
+LIST DESIGN:
+
+
+
+
+
