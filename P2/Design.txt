@@ -16,7 +16,7 @@ QUEUE DESIGN:
             queueInQuestion.pop() // Dequeue first element 
         }
 
-        void displayQueueData() {
+        void displayQueueData() { // Prints out first and last elements of queue.
             if queueInQuestion != empty {
                 cout << queueInQuestion.firstElement;
                 cout << queueInQuestion.lastElement;
@@ -29,6 +29,21 @@ QUEUE DESIGN:
 
 LIST DESIGN:
 
+Struct Node {
+    data variable; //Stores value of Node
+    Node* next; //Pointer to next node
+    Initialize() {}
+}
+
+Class LinkedList {
+private:
+    Node* head; // Pointer to the head of the list
+
+public:
+    void insert() {};
+    void delete() {};
+    std::string printOut(LinkedList list) {};
+}
 
 
 
