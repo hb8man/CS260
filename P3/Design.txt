@@ -1,0 +1,23 @@
+struct Node {
+    int Data;
+    Node* next;
+
+    initializer()
+}
+
+class LinkedQueue {
+    Node* front;
+    Node* back;
+
+    LinkedQueue() : front(nullptr), rear(nullptr) {} // initializer
+
+    enqueue()
+
+    dequeue()
+
+    peek()
+}
+
+int main() {
+    Make CLI application that handles user input... Like the first assignment.
+}
