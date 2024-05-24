@@ -1,0 +1,15 @@
+struct Node {
+    int data;
+    Node* Next;
+}
+
+class LinkedList {
+    Node* Front;
+    Node* Back;
+
+    add()
+
+    remove()
+
+    get()
+}
