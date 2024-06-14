@@ -1,0 +1,13 @@
+The hash table will be an array of linked lists. I will be skipping the
+simpler implementation of a hash table, gotta get to the nitty gritty! For the hash function, I will most likely just use n % 10.
+
+For the tests, I will be writing out basic tests in the main function for the insert and delete function using the display method to show
+the changes in the Hashtable after executing them.
+
+Hashing is awesome for getting data super quickly and efficiently (Maybe). When I worked for a startup in an incubator program for the 
+University of Georgia (campus event mgmt app), the other senior developer and I implemented Apple's super powerful Combine framework. 
+In this use case, we needed to be able to fetch all of the user IDs (way faster in firebase than fetching the objects themselves) that contain 
+a certain event ID (Ticket obj) using Combine. I made the Event class conform to the Hashable protocol, enabling me to add a function that adds the 
+user IDs to a hash table (in the background when fetching), then renders the new view state with the data in a few concise blocks of code. 
+Hashing is great! I'm pretty sure that the various collection mapping functions utilize hashing as well but inline (where the function 
+parameters are the keys).
