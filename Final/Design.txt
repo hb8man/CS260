@@ -1,0 +1,31 @@
+THIS IS A GENERAL OVERVIEW OF THE FUNCTIONALITY THAT WILL NEED TO BE IMPLEMENTED
+
+
+Initialize Graph:
+    Create an empty list for each vertex.
+
+Add Vertex:
+    If the vertex is not already in the graph, add it with an empty list for storing edges.
+
+Add Edge:
+If both vertices exist, connect them with a specified weight.
+Compute Shortest Path (Dijkstra's Algorithm):
+
+Start from a specific vertex.
+    Set the distance to this starting vertex as zero and to infinity for all other vertices.
+    Use a priority mechanism to always extend the shortest known path:
+        Extend to the nearest unvisited vertex.
+        Update paths to adjacent vertices if shorter paths found.
+    Repeat until all vertices visited.
+    Compute MST (Prim):
+
+Start from any vertex if the graph isn't empty.
+Initialize all vertices as not being in the tree and set all keys to infinity.
+Add the starting vertex to the tree with a key of zero.
+While there are vertices not in the tree:
+    Add the nearest vertex not in the tree.
+    Update  keys of adjacent vertices if shorter connection is found.
+Repeat until the tree includes all vertices.
+
+Visualize Connections:
+    Print all vertices and their connected neighbors showing the weights of connections.

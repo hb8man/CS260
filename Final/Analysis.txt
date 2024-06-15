@@ -1,0 +1,9 @@
+Add vertex: O(1) (Usually)
+
+Add edge: O(log n)
+
+Dijkstra's Algo: O((V+E)logV)
+
+Min span tree: Same as Dijkstra
+
+
